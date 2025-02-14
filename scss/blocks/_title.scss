@@ -1,0 +1,17 @@
+.title{
+    font-family: DM Serif Display;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 64px;
+    letter-spacing: -1px;
+    color: white;
+    position: relative;
+    &::after{
+        position: absolute;
+        content: '';
+        border-top: 2px solid white;
+        width: 150px;
+        top: -60px;
+        left: 0;
+    }
+}
