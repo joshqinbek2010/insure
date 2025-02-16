@@ -1,5 +1,26 @@
 .intro{
     background-color: #2D2641;
+    position: relative;
+    &::after{
+        position: absolute;
+        width: 649px;
+        height: 649px;
+        content: '';
+        background-image: url('../../img/intro-after..png');
+        background-repeat: no-repeat;
+        right: -200px;
+        top: 0;
+    }
+    &::before{
+        position: absolute;
+        width: 697px;
+        height: 649px;
+        content: '';
+        background-image: url('../../img/intro-before.png');
+        background-repeat: no-repeat;
+        left: 0;
+        bottom: -450px;
+    }
 }
 .intro__box{
     max-width: 540px;

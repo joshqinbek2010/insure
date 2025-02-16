@@ -1,0 +1,20 @@
+.hamburger{
+    width: 32px;
+    height: 32px;
+    background-color: transparent;
+    border: 2px solid black;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: none;
+}
+.hamburger__hamburger--close{
+    background-image: url('../../img/hamburger.svg');
+}
+.hamburger__hamburger--open{
+    background-image: url('../../img/hamburger-open.svg');
+}
+@media only screen and (max-width:590px){
+    .hamburger{
+        display: inline-block;
+    }
+}
